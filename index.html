@@ -1,12 +1,207 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <title>Ollie Bike Sharing</title>
-  <meta charset="utf-8"/>
-  <link rel="stylesheet" type="text/css" href="main.css">
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- BOOTSTRAP LINKS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <!-- MAIN.CSS LINK  -->
+  <link rel="stylesheet" type="text/css" href="main.css"/>
 </head>
 <body>
-  <h1>EVa J's site</h1>
-  <h2>Share Your Dream with the world</h2>
-  <p> My idea is to create a headset that is based and focused on education and careers. The mission is to teach students about different jobs and opportunities that can change the world in extravagant ways. My vision is to find a way to recreate real events and make a simulated game and the tagline will be My dream job. This idea came to me because I saw that some schools are using VRS to teach students different careers such as nursing, surgery, and building  curiosity.
-  This idea serves anybody who has a deep passion who wants to become historians, doctors, veterinarians, musicians, cosmetologists etc. Each session will be thirty minutes to an hour long based on the career choices there are also different levels and perks you can unlock such as hiring staff and faster service. In order to make this happen I would probably need, voice actors, sound effects. I would also find people with the careers I would put in the game to make it as accurate as possible but this is just an idea.<!DOCTYPE html> <a  href="cities.html">list</a> of cities where you can find us.</p>
-<img
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#"> Career set and go </a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#values">Values</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- YOUR CAROUSEL STARTS HERE -->
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+
+      <!-- SLIDE 1 -->
+      <div class="item active">
+        <img src="https://placehold.it/1200x400?text=IMAGE 1" alt="Image">
+        <div class="carousel-caption">
+          <h3>TITLE FOR SLIDE 1</h3>
+          <p>Desription</p>
+        </div>
+      </div>
+
+      <!-- SLIDE 2 -->
+      <div class="item">
+        <img src="https://placehold.it/1200x400?text=IMAGE 2" alt="Image">
+        <div class="carousel-caption">
+          <h3>TITLE FOR SLIDE 2</h3>
+          <p>Desription</p>
+        </div>
+      </div>
+
+      <!-- SLIDE 3 -->
+      <div class="item">
+        <img src="https://placehold.it/1200x400?text=IMAGE 3" alt="Image">
+        <div class="carousel-caption">
+          <h3>TITLE FOR SLIDE 3</h3>
+          <p>Desription</p>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+</div>
+<!-- YOUR CAROUSEL ENDS HERE -->
+
+<br><br><br>
+
+
+<!-- YOUR "ABOUT" SECTION -->
+  <a id="about"></a>
+  <div class="container text-center">
+    <h2>About</h2>
+    <br><br>
+    <p>My idea is to create a headset that is based and focused on education and careers. to teach students about different jobs and opportunities that can change the world in extravagant ways.
+My vision is to find a way to recreate real events and make a simulated game and the tagline will be My dream job. I saw that some schools are using VRS to teach students different careers such as nursing, surgery, and building curiosity.
+This serves anybody who wants to become historians, doctors, veterinarians, musicians, cosmetologists, etc.
+</p>
+  </div>
+<!-- END OF "ABOUT" SECTION -->
+
+<br><br><br>
+
+<!-- START OF "WHAT WE DO" SECTION -->
+<a id="work"></a>
+<div class="container text-center">
+  <h3>What We Do</h3><br>
+  <div class="row">
+    <div class="col-sm-4">
+      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+      <br>
+      <p>"Girls for a change"</p>
+    </div>
+    <div class="col-sm-4">
+      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+      <br>
+      <p>Project 2</p>
+    </div>
+    <div class="col-sm-4">
+      <img src="https://images.unsplash.com/photo-1573165349168-b66c8bc087fc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1649&q=80" class="img-responsive" style="width:100%" alt="Image">
+      <br>
+      <p>Project 1</p>
+    </div>
+  </div>
+</div>
+<!-- END OF "WHAT WE DO" SECTION -->
+
+<br><br><br>
+
+<!-- YOUR "VALUES" SECTION -->
+  <a id="values"></a>
+  <div class="container text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-3">
+          <h3>Our Values</h3>
+        </div>
+        <div class="col-sm-3">
+          <h4>Value 1</h4>
+          <p>Some text...</p>
+        </div>
+        <div class="col-sm-3">
+          <h4>Value 2</h4>
+          <p>Some text...</p>
+        </div>
+        <div class="col-sm-3">
+          <h4>Value 3</h4>
+          <p>Some text...</p>
+        </div>
+      </div>
+    </div>
+</div>
+<br><br><br>
+<!-- END OF "VALUES" SECTION -->
+
+<br><br><br>
+
+<!-- HERE IS WHERE YOUR VIDEO SECTION BEGINS -->
+<div class="container text-center">
+  <div class="row">
+    <div class="col-sm-6">
+      <img src="https://placehold.it/150x80?text=VIDEO" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-6">
+      <h4>Learn More Section</h4>
+      <br>
+      <p>Tell us more about your idea...</p>
+    </div>
+  </div>
+</div>
+<!-- HERE IS WHERE YOUR VIDEO SECTION ENDS -->
+
+<br><br><br>
+
+<!-- YOUR "FOOTER" SECTION -->
+<footer>
+<a id="contact"></a>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6">
+        <h4>Contact</h4>
+        <br>
+        <p>Hours of Operation?</p>
+        <br><br>
+        <p>Your Email</p>
+        <p>100 Buford Rd, Bon Air, VA 23235</p>
+        <p>(804)-555-5555</p>
+      </div>
+      <div class="col-sm-6">
+        <img src="https://placehold.it/150x80?text=LOGO" class="img-responsive" style="width:50%" alt="Image">
+        <br><br>
+        <p>A concluding tagline about your idea. Vision Statement?</p>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- END OF "FOOTER" SECTION -->
+
+</body>
+</html>
